@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Reach Us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/ico" href="favicon.ico">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src="reachus.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      </button>
+	      <a class="navbar-brand" href="index.html">X Bank</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav">
+	        <li><a href="index.html">Home</a></li>
+	     	<li><a href="#">Personal</a></li>
+	        <li><a href="script.js">Wealth</a></li>
+	        <li><a href="#">NRI</a></li>
+	        <li class="active"><a href="#">Reach Us</a></li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="register.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	        <li><a href="index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<div class="container" style="margin-top: 80px;">
+	  <h2 style="padding:20px; margin-top:0px;">Reach Us</h2>
+	  <form class="form-horizontal" id="myForm" role="form">
+	    <div class="form-group">
+	    <div class="row">
+	      <div class="col-sm-2" style="margin-left:130px;"><label class="control-label col-sm-2" for="city">City: </label></div>
+	      	<div class="col-sm-4">
+	        <select class="form-control" id="city">
+	        	<option value="">City</option>
+	        	<option value="0">Delhi</option>
+	        	<option value="1">Mumbai</option>
+	        	<option value="2">Kolkata</option>
+	        	<option value="3">Jaipur</option>
+	        </select>
+	        </div>
+	    </div>    
+	    </div>
+	    <div style="font-weight: bold;font-size: 20px;margin-bottom: 10px;margin-top: 10px;">Select Branch Type:</div>
+	    <div class="checkbox-inline" style="margin-left: 130px;">
+      		<label><input type="checkbox" id="bankbranch">Bank Branch </label>
+    	</div>
+    	<div class="checkbox-inline">
+      		<label><input type="checkbox" id="atmbranch">ATM Branch</label>
+    	</div>
+	  </form>
+	</div>
+	<div class="container" style="margin-top: 30px;margin-left: 140px;">
+	<div id="0" class="block">
+		<div id="4" class="block">	
+			<p>Delhi Bank Branch1</p>
+			<p>Delhi Bank Branch2</p>
+		</div>
+		<div id="8" class="block">	
+			<p>Delhi ATM Branch1</p>
+			<p>Delhi ATM Branch2</p>
+		</div>	
+	</div>
+	<div id="1" class="block">
+		<div id="5" class="block">
+			<p>Munbai Bank Branch1</p>
+			<p>Munbai Bank Branch2</p>
+		</div>
+		<div id="9" class="block">	
+			<p>Munbai ATM Branch1</p>
+			<p>Munbai ATM Branch2</p>
+		</div>	
+	</div>
+	<div id="2" class="block">
+		<div id="6" class="block">
+			<p>Kokata Bank Branch1</p>
+			<p>Kokata Bank Branch2</p>
+		</div>
+		<div id="10" class="block">	
+			<p>Kokata ATM Branch1</p>
+			<p>Kokata ATM Branch2</p>
+		</div>	
+	</div>
+	<div id="3" class="block">
+		<div id="7" class="block">
+			<p>Jaipur Bank Branch1</p>
+			<p>Jaipur Bank Branch2</p>
+		</div>
+		<div id="11" class="block">	
+			<p>Jaipur ATM Branch1</p>
+			<p>Jaipur ATM Branch2</p>
+		</div>	
+	</div>
+	</div>
+</body>
+</html>
